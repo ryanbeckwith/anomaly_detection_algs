@@ -8,5 +8,4 @@ Implementations of the k-Nearest Neighbors (KNN) and AutoRegression (AutoReg) al
 
 # AutoReg
 
-<!-- ![autoreg](./Images/autoreg.gif) -->
-![autoreg](./Images/diagram-3.png)
+![autoreg](./Images/autoreg.gif)
