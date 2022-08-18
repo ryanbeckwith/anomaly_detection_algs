@@ -4,7 +4,8 @@ Implementations of the k-Nearest Neighbors (KNN) and AutoRegression (AutoReg) al
 
 # KNN
 
-
+![knn](./Images/knn2.png)
 
 # AutoReg
 
+![autoreg](./Images/autoreg.gif)
