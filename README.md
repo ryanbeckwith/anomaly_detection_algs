@@ -169,7 +169,7 @@ $$
 
 **5.** Let $d$ be a hyperparameter in the range $(0, 1)$ corresponding to the percent of data points that should be considered anomalies. Define a list $\mathbf{x_d}$ which contains the $\lceil d \cdot n \rceil$ highest anomaly scores of the training data points. Define the threshold anomaly score, $|\epsilon_d|$, as the minimal anomaly score in $\mathbf{x_d}$. Using $|\epsilon_d|$, points with an anomaly score greater than or equal to $|\epsilon_d|$ will be classified as anomalous, and points with a lower anomaly score will be classified as normal.
 
-**6.** Given an ordered collection of real-valued, consecutive, and univariate time-series testing data $X_1', X_2', \dots, X_m'$, where $m > p$, predict whether each testing point $X_i'$ (where $ p < i \leq m$) is anomalous or normal according to the following procedure:
+**6.** Given an ordered collection of real-valued, consecutive, and univariate time-series testing data $X_1', X_2', \dots, X_m'$, where $m > p$, predict whether each testing point $X_i'$, where $p < i \leq m$, is anomalous or normal according to the following procedure:
 
 - Compute an $(m - p) \times (p + 1)$ matrix, $D'$, of the following form:
 
