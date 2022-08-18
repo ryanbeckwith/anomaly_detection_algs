@@ -118,8 +118,6 @@ $$
     = (D^{\mathsf{T}} D)^{-1} D^{\mathsf{T}} \mathbf{\overline{y}}
 $$
 
-- From an implementation perspective, the `np.linalg.lstsq` function can be utilized to solve for the regression coefficients and bias term.
-
 **4.** Compute each error term $\epsilon_t$ corresponding to $X_t$ according to the following formula:
 
 $$
@@ -222,6 +220,6 @@ $$
 ## Visualization
 
 The below animation visually demonstrates each of the six steps previously
-outlined.
+outlined for a small example of univariate time-series data.
 
 ![autoreg](./Images/autoreg.gif)
