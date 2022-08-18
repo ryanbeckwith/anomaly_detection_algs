@@ -215,7 +215,7 @@ $$
     = \mathbf{\overline{y}'} - D'\mathbf{a}
 $$
 
-- For each testing point $X_i'$ (where $ p < i \leq m$), compare the corresponding anomaly score $|\epsilon_i'|$ with $|\epsilon_d|$. If $|\epsilon_i'|$ is greater than or equal to $|\epsilon_d|$, classify $X_i'$ as anomalous. Otherwise, classify $X_i'$ as normal.
+- For each testing point $X_i'$ where $ p < i \leq m$, compare the corresponding anomaly score $|\epsilon_i'|$ with $|\epsilon_d|$. If $|\epsilon_i'|$ is greater than or equal to $|\epsilon_d|$, classify $X_i'$ as anomalous. Otherwise, classify $X_i'$ as normal.
 
 ## Visualization
 
