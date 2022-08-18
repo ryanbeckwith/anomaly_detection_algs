@@ -35,7 +35,7 @@ $B$ be a set containing the $k$ training vectors from $D$ which are closest
 to $v$, then we may formally define $f_\mathcal{A}$ as follows:
 
 $$
-    f_\mathcal{A}(\mathbf{v}) = \frac{\sum^k_{i=0} \left| \mathbf{v} - B_i \right|}{k}
+    f_\mathcal{A}(\mathbf{v}) = \dfrac{\sum\limits^k_{i=0} \left| \mathbf{v} - B_i \right|}{k}
 $$
 
 The following visualization in $\mathbb{R}^2$, where $k=3$, elucidates the fact
@@ -215,7 +215,7 @@ $$
     = \mathbf{\overline{y}'} - D'\mathbf{a}
 $$
 
-- For each testing point $X_i'$ where $ p < i \leq m$, compare the corresponding anomaly score $|\epsilon_i'|$ with $|\epsilon_d|$. If $|\epsilon_i'|$ is greater than or equal to $|\epsilon_d|$, classify $X_i'$ as anomalous. Otherwise, classify $X_i'$ as normal.
+- For each testing point $X_i'$ where $p < i \leq m$, compare the corresponding anomaly score $|\epsilon_i'|$ with $|\epsilon_d|$. If $|\epsilon_i'|$ is greater than or equal to $|\epsilon_d|$, classify $X_i'$ as anomalous. Otherwise, classify $X_i'$ as normal.
 
 ## Visualization
 
